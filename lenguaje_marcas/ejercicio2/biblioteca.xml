@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca>
+    <libro>
+        <titulo>
+            Titulo
+        </titulo>
+        <autor>
+            alejandro
+        </autor>
+        <genero>
+            aventuras
+        </genero>
+        <isbn>
+            84923084903409348340
+        </isbn>
+    </libro>
+</biblioteca>
