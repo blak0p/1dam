@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pedidos>
+  <pedido id="1">
+    <fecha>14-05-2025</fecha>
+    <datos_cliente>Alejandro Martín Pujalte</datos_cliente>
+    <direccion_envio>Calle San José, Valencia</direccion_envio>
+    <productos>
+      <producto id="101">
+        <nombre>Ratón</nombre>
+        <cantidad>50</cantidad>
+        <precio_unitario>10</precio_unitario>
+      </producto>
+      <producto id="102">
+        <nombre>Teclado</nombre>
+        <cantidad>10</cantidad>
+        <precio_unitario>50</precio_unitario>
+      </producto>
+    </productos>
+    <total>1000</total>
+  </pedido>
+  <pedido id="2">
+    <fecha>20-06-2025</fecha>
+    <datos_cliente>Lucía Hernández Sánchez</datos_cliente>
+    <direccion_envio>Avda. del Puerto, Madrid</direccion_envio>
+    <productos>
+      <producto id="201">
+        <nombre>Monitor 24"</nombre>
+        <cantidad>2</cantidad>
+        <precio_unitario>250</precio_unitario>
+      </producto>
+      <producto id="202">
+        <nombre>Cable HDMI</nombre>
+        <cantidad>5</cantidad>
+        <precio_unitario>12</precio_unitario>
+      </producto>
+    </productos>
+    <total>560</total>
+  </pedido>
+  <pedido id="3">
+    <fecha>05-07-2025</fecha>
+    <datos_cliente>Pablo Ramírez Torres</datos_cliente>
+    <direccion_envio>Calle Gran Vía, Sevilla</direccion_envio>
+    <productos>
+      <producto id="301">
+        <nombre>Disco Duro SSD 500GB</nombre>
+        <cantidad>1</cantidad>
+        <precio_unitario>120</precio_unitario>
+      </producto>
+      <producto id="302">
+        <nombre>Webcam</nombre>
+        <cantidad>1</cantidad>
+        <precio_unitario>65</precio_unitario>
+      </producto>
+      <producto id="303">
+        <nombre>Altavoces Bluetooth</nombre>
+        <cantidad>2</cantidad>
+        <precio_unitario>45</precio_unitario>
+      </producto>
+    </productos>
+    <total>340</total>
+  </pedido>
+</pedidos>
