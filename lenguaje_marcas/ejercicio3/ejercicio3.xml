@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda>
+  <producto id="1">
+    <nombre>
+      coche toyota
+    </nombre>
+    <marca>
+      toyota
+    </marca>
+    <precio>
+      40000
+    </precio>
+    <stock>
+      50
+    </stock>
+  </producto>
+
+  <producto id="2">
+    <nombre>
+      audi r8
+    </nombre>
+    <marca>
+      audi
+    </marca>
+    <precio>
+      60000
+    </precio>
+    <stock>
+      60
+    </stock>
+  </producto>
+
+  <producto id="3">
+    <nombre>
+      bmw m4
+    </nombre>
+    <marca>
+      bmw
+    </marca>
+    <precio>
+      55000
+    </precio>
+    <stock>
+      35
+    </stock>
+  </producto>
+
+  <producto id="4">
+    <nombre>
+      mercedes benz c63
+    </nombre>
+    <marca>
+      mercedes benz
+    </marca>
+    <precio>
+      65000
+    </precio>
+    <stock>
+      25
+    </stock>
+  </producto>
+
+  <producto id="5">
+    <nombre>
+      porche 911
+    </nombre>
+    <marca>
+      porche
+    </marca>
+    <precio>
+      120000
+    </precio>
+    <stock>
+      10
+    </stock>
+  </producto>
+
+</tienda>
