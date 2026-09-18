@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instituto nombre="IES Tecnológico" codigo="46000001">
+
+    <asignaturas>
+        <asignatura id="ASIG01">
+            <nombre>Sistemas Informáticos</nombre>
+            <horas>6</horas>
+        </asignatura>
+        <asignatura id="ASIG02">
+            <nombre>Bases de Datos</nombre>
+            <horas>6</horas>
+        </asignatura>
+        <asignatura id="ASIG03">
+            <nombre>Programación</nombre>
+            <horas>8</horas>
+        </asignatura>
+        <asignatura id="ASIG04">
+            <nombre>Lenguajes de Marcas</nombre>
+            <horas>4</horas>
+        </asignatura>
+    </asignaturas>
+
+    <profesores>
+        <profesor id="PROF01">
+            <nombre>Carlos</nombre>
+            <apellidos>Martínez Gómez</apellidos>
+            <departamento>Informática</departamento>
+        </profesor>
+        <profesor id="PROF02">
+            <nombre>Lucía</nombre>
+            <apellidos>Navarro Ruiz</apellidos>
+            <departamento>Informática</departamento>
+        </profesor>
+        <profesor id="PROF03">
+            <nombre>Javier</nombre>
+            <apellidos>Sánchez Pérez</apellidos>
+            <departamento>Informática</departamento>
+        </profesor>
+    </profesores>
+
+    <alumnos>
+        <alumno id="ALU01">
+            <nombre>Marcos</nombre>
+            <apellidos>López García</apellidos>
+            <edad>19</edad>
+            <curso>1º DAM</curso>
+            <calificaciones>
+                <calificacion idRef="ASIG01" nota="8.5" />
+                <calificacion idRef="ASIG02" nota="7.0" />
+                <calificacion idRef="ASIG03" nota="9.0" />
+            </calificaciones>
+        </alumno>
+        <alumno id="ALU02">
+            <nombre>Elena</nombre>
+            <apellidos>Fernández Torres</apellidos>
+            <edad>20</edad>
+            <curso>1º DAM</curso>
+            <calificaciones>
+                <calificacion idRef="ASIG02" nota="6.5" />
+                <calificacion idRef="ASIG03" nota="8.0" />
+                <calificacion idRef="ASIG04" nota="9.5" />
+            </calificaciones>
+        </alumno>
+        <alumno id="ALU03">
+            <nombre>David</nombre>
+            <apellidos>Romero Gil</apellidos>
+            <edad>18</edad>
+            <curso>1º DAM</curso>
+            <calificaciones>
+                <calificacion idRef="ASIG01" nota="5.0" />
+                <calificacion idRef="ASIG03" nota="6.0" />
+                <calificacion idRef="ASIG04" nota="7.5" />
+            </calificaciones>
+        </alumno>
+        <alumno id="ALU04">
+            <nombre>Sara</nombre>
+            <apellidos>Castillo Vidal</apellidos>
+            <edad>21</edad>
+            <curso>1º DAM</curso>
+            <calificaciones>
+                <calificacion idRef="ASIG01" nota="9.0" />
+                <calificacion idRef="ASIG02" nota="8.5" />
+                <calificacion idRef="ASIG04" nota="10.0" />
+            </calificaciones>
+        </alumno>
+    </alumnos>
+
+</instituto>
