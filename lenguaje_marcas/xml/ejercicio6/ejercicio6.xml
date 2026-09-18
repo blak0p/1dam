@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda>
+    <info_general>
+        <tienda>
+            <nombre>Mi Tienda Online</nombre>
+            <direccion>Calle Falsa 123, Ciudad</direccion>
+            <telefono>+34 123 456 789</telefono>
+            <email>info@mitiendaonline.com</email>
+            <cif>B12345678</cif>
+        </tienda>
+
+        <catalogo_productos>
+            <producto id="101" activo="true">
+                <nombre>Ratón</nombre>
+                <categoria>Periféricos</categoria>
+                <precio>10</precio>
+                <stock>100</stock>
+            </producto>
+            <producto id="102" activo="true">
+                <nombre>Teclado</nombre>
+                <categoria>Periféricos</categoria>
+                <precio>50</precio>
+                <stock>50</stock>
+            </producto>
+            <producto id="103" activo="true">
+                <nombre>Webcam</nombre>
+                <categoria>Accesorios</categoria>
+                <precio>25</precio>
+                <stock>40</stock>
+            </producto>
+            <producto id="104" activo="true">
+                <nombre>Monitor</nombre>
+                <categoria>Pantallas</categoria>
+                <precio>80</precio>
+                <stock>30</stock>
+            </producto>
+            <producto id="105" activo="true">
+                <nombre>Altavoces</nombre>
+                <categoria>Audio</categoria>
+                <precio>120</precio>
+                <stock>20</stock>
+            </producto>
+        </catalogo_productos>
+
+        <catalogo_clientes>
+            <cliente id="1">
+                <nombre>Alejandro</nombre>
+                <apellidos>Martín Pujalte</apellidos>
+                <direccion>Calle San José, Valencia</direccion>
+                <telefono>+34 987 654 321</telefono>
+                <email>alejandro.martin@ejemplo.com</email>
+            </cliente>
+            <cliente id="2">
+                <nombre>Lucía</nombre>
+                <apellidos>Hernández Sánchez</apellidos>
+                <direccion>Avda. del Puerto, Madrid</direccion>
+                <telefono>+34 912 345 678</telefono>
+                <email>lucia.hernandez@ejemplo.com</email>
+            </cliente>
+            <cliente id="3">
+                <nombre>Pablo</nombre>
+                <apellidos>Ramírez Torres</apellidos>
+                <direccion>Calle Gran Vía, Sevilla</direccion>
+                <telefono>+34 923 456 789</telefono>
+                <email>pablo.ramirez@ejemplo.com</email>
+            </cliente>
+            <cliente id="4">
+                <nombre>María</nombre>
+                <apellidos>García López</apellidos>
+                <direccion>Calle Mayor, Barcelona</direccion>
+                <telefono>+34 934 567 890</telefono>
+                <email>maria.garcia@ejemplo.com</email>
+            </cliente>
+        </catalogo_clientes>
+
+        <catalogo_pedidos>
+            <pedido id="1" estado="pendiente">
+                <fecha>14-10-2023</fecha>
+                <cliente>Alejandro Martín Pujalte</cliente>
+                <direccion_envio>Calle San José, Valencia</direccion_envio>
+                <lista_productos>
+                    <producto id="101">
+                        <nombre>Ratón</nombre>
+                        <cantidad>50</cantidad>
+                        <precio_unitario>10</precio_unitario>
+                    </producto>
+                    <producto id="102">
+                        <nombre>Teclado</nombre>
+                        <cantidad>10</cantidad>
+                        <precio_unitario>50</precio_unitario>
+                    </producto>
+                </lista_productos>
+                <total>1000</total>
+            </pedido>
+
+            <pedido id="2" estado="entregado">
+                <fecha>15-10-2023</fecha>
+                <cliente>Lucía Hernández Sánchez</cliente>
+                <direccion_envio>Avda. del Puerto, Madrid</direccion_envio>
+                <lista_productos>
+                    <producto id="101">
+                        <nombre>Ratón</nombre>
+                        <cantidad>20</cantidad>
+                        <precio_unitario>10</precio_unitario>
+                    </producto>
+                    <producto id="103">
+                        <nombre>Webcam</nombre>
+                        <cantidad>10</cantidad>
+                        <precio_unitario>25</precio_unitario>
+                    </producto>
+                </lista_productos>
+                <total>450</total>
+            </pedido>
+
+            <pedido id="3" estado="enviado">
+                <fecha>16-10-2023</fecha>
+                <cliente>Pablo Ramírez Torres</cliente>
+                <direccion_envio>Calle Gran Vía, Sevilla</direccion_envio>
+                <lista_productos>
+                    <producto id="103">
+                        <nombre>Webcam</nombre>
+                        <cantidad>3</cantidad>
+                        <precio_unitario>25</precio_unitario>
+                    </producto>
+                    <producto id="104">
+                        <nombre>Monitor</nombre>
+                        <cantidad>2</cantidad>
+                        <precio_unitario>80</precio_unitario>
+                    </producto>
+                </lista_productos>
+                <total>235</total>
+            </pedido>
+
+            <pedido id="4" estado="pendiente">
+                <fecha>17-10-2023</fecha>
+                <cliente>María García López</cliente>
+                <direccion_envio>Calle Mayor, Barcelona</direccion_envio>
+                <lista_productos>
+                    <producto id="102">
+                        <nombre>Teclado</nombre>
+                        <cantidad>4</cantidad>
+                        <precio_unitario>50</precio_unitario>
+                    </producto>
+                    <producto id="105">
+                        <nombre>Altavoces</nombre>
+                        <cantidad>1</cantidad>
+                        <precio_unitario>120</precio_unitario>
+                    </producto>
+                </lista_productos>
+                <total>320</total>
+            </pedido>
+
+            <pedido id="5" estado="entregado">
+                <fecha>18-10-2023</fecha>
+                <cliente>Alejandro Martín Pujalte</cliente>
+                <direccion_envio>Calle San José, Valencia</direccion_envio>
+                <lista_productos>
+                    <producto id="104">
+                        <nombre>Monitor</nombre>
+                        <cantidad>2</cantidad>
+                        <precio_unitario>80</precio_unitario>
+                    </producto>
+                    <producto id="105">
+                        <nombre>Altavoces</nombre>
+                        <cantidad>3</cantidad>
+                        <precio_unitario>120</precio_unitario>
+                    </producto>
+                </lista_productos>
+                <total>520</total>
+            </pedido>
+        </catalogo_pedidos>
+    </info_general>
+</tienda>
