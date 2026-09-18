@@ -98,12 +98,12 @@
                 <cliente>Lucía Hernández Sánchez</cliente>
                 <direccion_envio>Avda. del Puerto, Madrid</direccion_envio>
                 <lista_productos>
-                    <producto id="101">
+                    <producto id="103">
                         <nombre>Ratón</nombre>
                         <cantidad>20</cantidad>
                         <precio_unitario>10</precio_unitario>
                     </producto>
-                    <producto id="103">
+                    <producto id="104">
                         <nombre>Webcam</nombre>
                         <cantidad>10</cantidad>
                         <precio_unitario>25</precio_unitario>
@@ -117,12 +117,12 @@
                 <cliente>Pablo Ramírez Torres</cliente>
                 <direccion_envio>Calle Gran Vía, Sevilla</direccion_envio>
                 <lista_productos>
-                    <producto id="103">
+                    <producto id="105">
                         <nombre>Webcam</nombre>
                         <cantidad>3</cantidad>
                         <precio_unitario>25</precio_unitario>
                     </producto>
-                    <producto id="104">
+                    <producto id="106">
                         <nombre>Monitor</nombre>
                         <cantidad>2</cantidad>
                         <precio_unitario>80</precio_unitario>
@@ -136,12 +136,12 @@
                 <cliente>María García López</cliente>
                 <direccion_envio>Calle Mayor, Barcelona</direccion_envio>
                 <lista_productos>
-                    <producto id="102">
+                    <producto id="107">
                         <nombre>Teclado</nombre>
                         <cantidad>4</cantidad>
                         <precio_unitario>50</precio_unitario>
                     </producto>
-                    <producto id="105">
+                    <producto id="108">
                         <nombre>Altavoces</nombre>
                         <cantidad>1</cantidad>
                         <precio_unitario>120</precio_unitario>
@@ -155,12 +155,12 @@
                 <cliente>Alejandro Martín Pujalte</cliente>
                 <direccion_envio>Calle San José, Valencia</direccion_envio>
                 <lista_productos>
-                    <producto id="104">
+                    <producto id="109">
                         <nombre>Monitor</nombre>
                         <cantidad>2</cantidad>
                         <precio_unitario>80</precio_unitario>
                     </producto>
-                    <producto id="105">
+                    <producto id="110">
                         <nombre>Altavoces</nombre>
                         <cantidad>3</cantidad>
                         <precio_unitario>120</precio_unitario>
