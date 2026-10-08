@@ -1,0 +1,6 @@
+{
+  "nombre": "string",
+  "edad": "number",
+  "esEstudiante": "boolean",
+  "telefono": "nulleable"
+}
