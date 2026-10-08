@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instituto>
+  <departamentos>
+    <departamento id="2">
+      <nombre>Departamento de Negocios y Empresas</nombre>
+      <jefe>Ing. Luis Hernández</jefe>
+      <descripcion>Ofrece programas en gestión y negocios</descripcion>
+      <carreras>
+        <carrera>
+          <nombre>Gestión Empresarial</nombre>
+          <grado>Grado en Gestión</grado>
+          <duracion>4 años</duracion>
+        </carrera>
+        <carrera>
+          <nombre>Marketing</nombre>
+          <grado>Grado en Marketing</grado>
+          <duracion>3 años</duracion>
+        </carrera>
+      </carreras>
+    </departamento>
+
+    <departamento id="3">
+      <nombre>Departamento de Ingeniería y Tecnología</nombre>
+      <jefe>Ing. Carlos Mora</jefe>
+      <descripcion>Forma profesionales en ingeniería y tecnología</descripcion>
+      <carreras>
+        <carrera>
+          <nombre>Ingeniería en Sistemas</nombre>
+          <grado>Grado en Ingeniería</grado>
+          <duracion>5 años</duracion>
+        </carrera>
+        <carrera>
+          <nombre>Ingeniería Civil</nombre>
+          <grado>Grado en Ingeniería</grado>
+          <duracion>5 años</duracion>
+        </carrera>
+      </carreras>
+    </departamento>
+
+    <departamento id="4">
+      <nombre>Departamento de Ciencias</nombre>
+      <jefe>Lic. María Jiménez</jefe>
+      <descripcion>Ofrece programas en ciencias y matemáticas</descripcion>
+      <carreras>
+        <carrera>
+          <nombre>Matemáticas</nombre>
+          <grado>Grado en Ciencias</grado>
+          <duracion>4 años</duracion>
+        </carrera>
+        <carrera>
+          <nombre>Química</nombre>
+          <grado>Grado en Ciencias</grado>
+          <duracion>4 años</duracion>
+        </carrera>
+      </carreras>
+    </departamento>
+  </departamentos>
+
+  <estudiantes>
+    <estudiante>
+      <id>003</id>
+      <nombre>Carlos Gómez</nombre>
+      <email>carlos.gomez@tecnologicocr.edu.cr</email>
+      <carrera>Analisis y Desarrollo de Sistemas</carrera>
+    </estudiante>
+    <estudiante>
+      <id>004</id>
+      <nombre>Lucía Fernández</nombre>
+      <email>lucia.fernandez@tecnologicocr.edu.cr</email>
+      <carrera>Gestión Empresarial</carrera>
+    </estudiante>
+  </estudiantes>
+</instituto>
