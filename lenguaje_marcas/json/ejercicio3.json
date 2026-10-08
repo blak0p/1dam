@@ -1,0 +1,8 @@
+{
+  "producto": "Ordenador",
+  "precio": 1200,
+  "stock": 15,
+  "1": "string",
+  "2": "number",
+  "3": "no no son de el mismo tipo porque uno tiene comillas y el otro no"
+}
