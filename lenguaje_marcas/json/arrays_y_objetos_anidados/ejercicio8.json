@@ -2,15 +2,18 @@
   "alumnos": [
     {
       "nombre": "Alejandro",
-      "edad": 20
+      "edad": 20,
+      "clase": "1A"
     },
     {
       "nombre": "Juan",
-      "edad": 22
+      "edad": 22,
+      "clase": "1B"
     },
     {
       "nombre": "Maria",
-      "edad": 21
+      "edad": 21,
+      "clase": "1A"
     }
   ]
 }
