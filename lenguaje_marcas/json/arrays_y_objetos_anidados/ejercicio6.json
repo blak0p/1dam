@@ -1,0 +1,6 @@
+{
+  "nombre": "Alejandro",
+  "apellidos": "Martin Pujalte",
+  "edad": 18,
+  "aficiones": ["futbol", "musica", "videojuegos"]
+}
