@@ -1,0 +1,33 @@
+{
+  "nombre": "Tienda de Electrónica",
+  "direccion": {
+    "calle": "Avenida Principal 456",
+    "ciudad": "Metropolis"
+  },
+  "productos": [
+    {
+      "nombre": "Televisor",
+      "precio": 499.99,
+      "caracteristicas": {
+        "tamaño": "55 pulgadas",
+        "resolucion": "4K"
+      }
+    },
+    {
+      "nombre": "Laptop",
+      "precio": 899.99,
+      "caracteristicas": {
+        "procesador": "Intel i7",
+        "ram": "16GB"
+      }
+    },
+    {
+      "nombre": "Auriculares",
+      "precio": 99.99,
+      "caracteristicas": {
+        "tipo": "Inalámbricos",
+        "cancelacionRuido": true
+      }
+    }
+  ]
+}
