@@ -1,0 +1,9 @@
+{
+  "nombre": "Juan",
+  "edad": 30,
+  "direccion": {
+    "calle": "Calle Falsa 123",
+    "ciudad": "Springfield",
+    "codigoPostal": "12345"
+  }
+}
