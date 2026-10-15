@@ -1,0 +1,24 @@
+{
+  "alumnos": [
+    {
+      "nombre": "Jose",
+      "edad": 25,
+      "aprobado": true
+    },
+    {
+      "nombre": "Maria",
+      "edad": 22,
+      "aprobado": false
+    },
+    {
+      "nombre": "Pedro",
+      "edad": 28,
+      "aprobado": true
+    },
+    {
+      "nombre": "Luisa",
+      "edad": 24,
+      "aprobado": true
+    }
+  ]
+}
