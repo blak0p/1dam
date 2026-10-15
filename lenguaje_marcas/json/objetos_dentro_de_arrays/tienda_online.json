@@ -1,0 +1,20 @@
+{
+  "tiendaOnline": [
+    {
+      "nombre": "tiendaOnline",
+      "abierta": true,
+      "contacto": [
+        {
+          "email": "contacto@tiendaOnline.com",
+          "telefono": "123456789"
+        }
+      ]
+      "categorias": [
+        {
+      "electronica",
+      "alimentos"
+    }
+      ]
+    }
+  ]
+}
