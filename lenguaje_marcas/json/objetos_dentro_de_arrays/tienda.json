@@ -1,0 +1,28 @@
+{
+  "productos": [
+    {
+      "nombre": "laptop",
+      "precio": 1200,
+      "categoria": "tegnologia",
+      "disponible": true
+    },
+    {
+      "nombre": "monitor",
+      "precio": 300,
+      "categoria": "tegnologia",
+      "disponible": true
+    },
+    {
+      "nombre": "teclado",
+      "precio": 100,
+      "categoria": "tegnologia",
+      "disponible": true
+    },
+    {
+      "nombre": "mouse",
+      "precio": 50,
+      "categoria": "tegnologia",
+      "disponible": true
+    }
+  ]
+}
