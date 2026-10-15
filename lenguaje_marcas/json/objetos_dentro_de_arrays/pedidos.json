@@ -1,0 +1,61 @@
+{
+  "pedidos": [
+    {
+      "numero": 1,
+      "cliente": [
+        {
+          "nombre": "Juan martin",
+          "email": "juan@example.com",
+          "direccion": [
+            {
+              "calle": "Calle falsa",
+              "ciudad": "madrid",
+              "codigoPostal": "12345"
+            }
+          ]
+        }
+      ],
+      "producto": "Consola",
+      "cantidad": 1,
+      "entregado": false
+    },
+    {
+      "numero": 2,
+      "cliente": [
+        {
+          "nombre": "Ana Lopez",
+          "email": "ana@example.com",
+          "direccion": [
+            {
+              "calle": "Calle real",
+              "ciudad": "sevilla",
+              "codigoPostal": "54321"
+            }
+          ]
+        }
+      ],
+      "producto": "Juego de video",
+      "cantidad": 2,
+      "entregado": true
+    },
+    {
+      "numero": 3,
+      "cliente": [
+        {
+          "nombre": "Pedro Sanchez",
+          "email": "pedro@example.com",
+          "direccion": [
+            {
+              "calle": "Calle falsa",
+              "ciudad": "barcelona",
+              "codigoPostal": "67890"
+            }
+          ]
+        }
+      ],
+      "producto": "Juego de mesa",
+      "cantidad": 1,
+      "entregado": true
+    }
+  ]
+}
