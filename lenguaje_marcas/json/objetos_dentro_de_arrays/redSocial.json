@@ -1,0 +1,121 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "usuario": "Usuario1",
+      "perfil": [
+        {
+          "bio": "biografia de usuario",
+          "ubicacion": "España",
+          "verificado": true
+        }
+      ],
+      "siguiendo": [1, 3]
+    },
+    {
+      "id": 2,
+      "usuario": "Usuario2",
+      "perfil": [
+        {
+          "bio": "biografia de usuario2",
+          "ubicacion": "Francia",
+          "verificado": false
+        }
+      ],
+      "siguiendo": [1]
+    },
+    {
+      "id": 3,
+      "usuario": "Usuario3",
+      "perfil": [
+        {
+          "bio": "biografia de usuario3",
+          "ubicacion": "Alemania",
+          "verificado": true
+        }
+      ],
+      "siguiendo": [1, 2]
+    }
+  ],
+  "publicaciones": [
+    {
+      "id": 1,
+      "autorId": 1,
+      "texto": "Texto de una publicacion",
+      "fecha": "2026-10-09T14:30:00",
+      "reacciones": [
+        {
+          "meGusta": 5,
+          "risa": 1,
+          "sorpresa": 3
+        }
+      ],
+      "hashtags": ["hashtag1", "hashtag2"]
+    },
+    {
+      "id": 2,
+      "autorId": 2,
+      "texto": "publicacion de autor 2",
+      "fecha": "2026-10-09T14:45:00",
+      "reacciones": [
+        {
+          "meGusta": 10,
+          "risa": 0,
+          "sorpresa": 0
+        }
+      ],
+      "hashtags": []
+    },
+    {
+      "id": 3,
+      "autorId": 3,
+      "texto": "publicacion de autor 3",
+      "fecha": "2026-10-09T14:50:00",
+      "reacciones": [
+        {
+          "meGusta": 7,
+          "risa": 2,
+          "sorpresa": 1
+        }
+      ],
+      "hashtags": ["hashtag3"]
+    }
+  ],
+  "comentarios": [
+    {
+      "id": 1,
+      "publicacionID": 1,
+      "autorID": 1,
+      "texto": "texto de un comentario",
+      "editado": true
+    },
+    {
+      "id": 2,
+      "publicacionID": 2,
+      "autorID": 2,
+      "texto": "texto de un comentario",
+      "editado": false
+    },
+    {
+      "id": 3,
+      "publicacionID": 1,
+      "autorID": 3,
+      "texto": "texto de un comentario",
+      "editado": true
+    },
+    {
+      "id": 4,
+      "publicacionID": 2,
+      "autorID": 1,
+      "texto": "texto de un comentario",
+      "editado": false
+    },
+    {
+      "id": 5,
+      "publicacionID": 3,
+      "autorID": 3,
+      "texto": "texto de un comentario",
+      "editado": true
+    }
+  ]
+}
