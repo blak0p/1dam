@@ -8,6 +8,7 @@
     {
       "nombre": "Televisor",
       "precio": 499.99,
+      "disponible": true,
       "caracteristicas": {
         "tamaño": "55 pulgadas",
         "resolucion": "4K"
@@ -16,6 +17,7 @@
     {
       "nombre": "Laptop",
       "precio": 899.99,
+      "disponible": false,
       "caracteristicas": {
         "procesador": "Intel i7",
         "ram": "16GB"
@@ -24,6 +26,7 @@
     {
       "nombre": "Auriculares",
       "precio": 99.99,
+      "disponible": true,
       "caracteristicas": {
         "tipo": "Inalámbricos",
         "cancelacionRuido": true
