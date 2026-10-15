@@ -1,0 +1,96 @@
+{
+  "academia": [
+    {
+      "nombre": "Academia falsa",
+      "fundacion": 2007,
+      "sede": [
+        {
+          "ciudad": "Madrid",
+          "pais": "España",
+          "cordenadas": {
+            "latitud": 40.4168,
+            "longitud": -3.7038
+          }
+        }
+      ],
+      "cursos": [
+        {
+          "codigo": "c43434",
+          "titulo": "Curso de programación",
+          "profesor": [
+            {
+              "nombre": "David Juan",
+              "especialidades": ["JavaScript", "Python", "Java"],
+              "contacto": {
+                "email": "david.juan@academiafalsa.com",
+                "telefono": "666666666"
+              }
+            }
+          ],
+          "horario": [
+            {
+              "dia": "Lunes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "alumnos": [
+            {
+              "nombre": "Juan Perez",
+              "activo": true,
+              "notas": [
+                {
+                  "modulo": "JavaScript",
+                  "puntuacion": 8
+                },
+                {
+                  "modulo": "Python",
+                  "puntuacion": 9
+                },
+                {
+                  "modulo": "Java",
+                  "puntuacion": 7
+                }
+              ],
+              "notaFinal": 8
+            },
+            {
+              "nombre": "Ana Lopez",
+              "activo": true,
+              "notas": [
+                {
+                  "modulo": "Python",
+                  "puntuacion": 7
+                },
+                {
+                  "modulo": "Java",
+                  "puntuacion": 8
+                }
+              ],
+              "notaFinal": 7.5
+            },
+            {
+              "nombre": "Pedro Martinez",
+              "activo": false,
+              "notas": [
+                {
+                  "modulo": "JavaScript",
+                  "puntuacion": 6
+                },
+                {
+                  "modulo": "Python",
+                  "puntuacion": 5
+                },
+                {
+                  "modulo": "Java",
+                  "puntuacion": 4
+                }
+              ],
+              "notaFinal": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
