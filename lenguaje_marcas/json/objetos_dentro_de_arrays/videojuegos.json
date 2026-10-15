@@ -1,0 +1,28 @@
+{
+  "videojuegos": [
+    {
+      "titulo": "God of War",
+      "genero": "Accion",
+      "precio": 60,
+      "multijugador": false
+    },
+    {
+      "titulo": "The Legend of Zelda: Breath of the Wild",
+      "genero": "Aventura",
+      "precio": 60,
+      "multijugador": true
+    },
+    {
+      "titulo": "Super Mario Odyssey",
+      "genero": "Aventura",
+      "precio": 50,
+      "multijugador": true
+    },
+    {
+      "titulo": "Fortnite",
+      "genero": "shootter",
+      "precio": 0,
+      "multijugador": true
+    }
+  ]
+}
