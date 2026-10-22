@@ -1,0 +1,17 @@
+{
+  "status": 404,
+  "ok": false,
+  "data": null,
+  "errores": [
+    {
+      "codigo": "RECURSO_NO_ENCONTRADO",
+      "mensaje": "La serie solicitada no existe.",
+      "campo": "id"
+    },
+    {
+      "codigo": "RUTA_INVALIDA",
+      "mensaje": "La ruta solicitada no está disponible.",
+      "campo": "ruta"
+    }
+  ]
+}

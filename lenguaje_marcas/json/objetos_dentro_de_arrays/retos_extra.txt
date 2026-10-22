@@ -1,0 +1,9 @@
+EJERCICIO 19
+1. clinica.pacientes[1].historial[0].tratamiento.medicamento
+2. clinica.citas.filter(cita => cita.medicoId === 2) (para el médico con id 2)
+3. clinica.pacientes.filter(paciente => paciente.seguro === null) -> Lucía García
+
+EJERCICIO 20 (suponiendo que la respuesta correcta está guardada en la variable respuesta)
+1. respuesta.data[2].temporadas[0].episodios[1].titulo
+2. respuesta.data[0].reparto.find(persona => persona.principal).actor
+3. respuesta.data[1].disponibleEn.MX -> false

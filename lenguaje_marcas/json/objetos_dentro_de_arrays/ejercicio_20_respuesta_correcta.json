@@ -1,0 +1,207 @@
+{
+  "status": 200,
+  "ok": true,
+  "meta": {
+    "pagina": 1,
+    "porPagina": 4,
+    "totalResultados": 4,
+    "enlaces": {
+      "anterior": null,
+      "siguiente": null
+    },
+    "generadoEn": "2026-10-22T12:00:00+02:00"
+  },
+  "data": [
+    {
+      "id": 1,
+      "titulo": "Horizonte perdido",
+      "genero": [
+        "Ciencia ficción",
+        "Drama"
+      ],
+      "estreno": 2024,
+      "valoracion": {
+        "media": 8.7,
+        "votos": 14200
+      },
+      "reparto": [
+        {
+          "actor": "Elena Vega",
+          "personaje": "Nora",
+          "principal": true
+        },
+        {
+          "actor": "David Soler",
+          "personaje": "Álex",
+          "principal": false
+        }
+      ],
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "titulo": "El comienzo",
+              "duracionMin": 45
+            },
+            {
+              "titulo": "La señal",
+              "duracionMin": 50
+            }
+          ]
+        }
+      ],
+      "disponibleEn": {
+        "ES": true,
+        "MX": true,
+        "US": false
+      },
+      "trailer": {
+        "url": "https://streaming.example/trailers/1",
+        "duracionSeg": 120
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Ciudad de sombras",
+      "genero": [
+        "Suspense",
+        "Crimen"
+      ],
+      "estreno": 2022,
+      "valoracion": {
+        "media": 8.2,
+        "votos": 9100
+      },
+      "reparto": [
+        {
+          "actor": "Marcos León",
+          "personaje": "Iván",
+          "principal": true
+        },
+        {
+          "actor": "Clara Gil",
+          "personaje": "Sara",
+          "principal": false
+        }
+      ],
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "titulo": "La pista",
+              "duracionMin": 45
+            },
+            {
+              "titulo": "Sin salida",
+              "duracionMin": 50
+            }
+          ]
+        }
+      ],
+      "disponibleEn": {
+        "ES": true,
+        "MX": false,
+        "US": true
+      },
+      "trailer": null
+    },
+    {
+      "id": 3,
+      "titulo": "Océano azul",
+      "genero": [
+        "Aventura",
+        "Drama"
+      ],
+      "estreno": 2025,
+      "valoracion": {
+        "media": 9.1,
+        "votos": 20100
+      },
+      "reparto": [
+        {
+          "actor": "Paula Ríos",
+          "personaje": "Marina",
+          "principal": true
+        },
+        {
+          "actor": "Jorge Vidal",
+          "personaje": "Hugo",
+          "principal": false
+        }
+      ],
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "titulo": "La travesía",
+              "duracionMin": 45
+            },
+            {
+              "titulo": "La tormenta",
+              "duracionMin": 50
+            }
+          ]
+        }
+      ],
+      "disponibleEn": {
+        "ES": true,
+        "MX": true,
+        "US": true
+      },
+      "trailer": {
+        "url": "https://streaming.example/trailers/3",
+        "duracionSeg": 120
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Código secreto",
+      "genero": [
+        "Tecnología",
+        "Misterio"
+      ],
+      "estreno": 2023,
+      "valoracion": {
+        "media": 7.9,
+        "votos": 6500
+      },
+      "reparto": [
+        {
+          "actor": "Irene Castro",
+          "personaje": "Eva",
+          "principal": true
+        },
+        {
+          "actor": "Raúl Núñez",
+          "personaje": "Leo",
+          "principal": false
+        }
+      ],
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "titulo": "El mensaje",
+              "duracionMin": 45
+            },
+            {
+              "titulo": "Acceso denegado",
+              "duracionMin": 50
+            }
+          ]
+        }
+      ],
+      "disponibleEn": {
+        "ES": false,
+        "MX": true,
+        "US": true
+      },
+      "trailer": null
+    }
+  ],
+  "errores": []
+}

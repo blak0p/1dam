@@ -1,0 +1,155 @@
+{
+  "nombre": "Clínica Salud Valencia",
+  "direccion": {
+    "calle": "Calle Mayor 12",
+    "ciudad": "Valencia",
+    "codigoPostal": "46001"
+  },
+  "configuracion": {
+    "horarioApertura": "08:00",
+    "horarioCierre": "20:00",
+    "duracionCitaMinutos": 30
+  },
+  "medicos": [
+    {
+      "id": 1,
+      "nombre": "Ana Torres",
+      "especialidad": "Medicina general",
+      "colegiado": "VAL-1234",
+      "consultas": [
+        "lunes",
+        "miércoles",
+        "viernes"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Luis Pérez",
+      "especialidad": "Dermatología",
+      "colegiado": "VAL-2345",
+      "consultas": [
+        "martes",
+        "jueves"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Marta Ruiz",
+      "especialidad": "Pediatría",
+      "colegiado": "VAL-3456",
+      "consultas": [
+        "lunes",
+        "martes",
+        "jueves"
+      ]
+    }
+  ],
+  "pacientes": [
+    {
+      "id": 101,
+      "nombre": "Carlos López",
+      "fechaNacimiento": "1998-04-15",
+      "seguro": {
+        "compania": "Sanitas",
+        "numeroPoliza": "SAN-1001"
+      },
+      "alergias": [
+        "penicilina"
+      ],
+      "historial": [
+        {
+          "fecha": "2026-09-10",
+          "diagnostico": "Faringitis",
+          "tratamiento": {
+            "medicamento": "Paracetamol",
+            "dosis": "500 mg cada 8 horas",
+            "duracionDias": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "nombre": "Lucía García",
+      "fechaNacimiento": "2002-11-22",
+      "seguro": null,
+      "alergias": [],
+      "historial": [
+        {
+          "fecha": "2026-10-01",
+          "diagnostico": "Dermatitis",
+          "tratamiento": {
+            "medicamento": "Hidrocortisona tópica",
+            "dosis": "Una aplicación diaria",
+            "duracionDias": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "nombre": "Pedro Martín",
+      "fechaNacimiento": "2015-06-03",
+      "seguro": {
+        "compania": "Adeslas",
+        "numeroPoliza": "ADE-3003"
+      },
+      "alergias": [
+        "polen"
+      ],
+      "historial": [
+        {
+          "fecha": "2026-08-19",
+          "diagnostico": "Rinitis alérgica",
+          "tratamiento": {
+            "medicamento": "Cetirizina",
+            "dosis": "5 mg diarios",
+            "duracionDias": 7
+          }
+        }
+      ]
+    }
+  ],
+  "citas": [
+    {
+      "id": 1,
+      "pacienteId": 101,
+      "medicoId": 1,
+      "fecha": "2026-10-23T09:00:00",
+      "confirmada": true,
+      "notas": null
+    },
+    {
+      "id": 2,
+      "pacienteId": 102,
+      "medicoId": 2,
+      "fecha": "2026-10-22T10:00:00",
+      "confirmada": true,
+      "notas": "Revisión de piel"
+    },
+    {
+      "id": 3,
+      "pacienteId": 103,
+      "medicoId": 3,
+      "fecha": "2026-10-22T11:00:00",
+      "confirmada": false,
+      "notas": null
+    },
+    {
+      "id": 4,
+      "pacienteId": 101,
+      "medicoId": 2,
+      "fecha": "2026-10-27T12:00:00",
+      "confirmada": true,
+      "notas": "Consulta de seguimiento"
+    },
+    {
+      "id": 5,
+      "pacienteId": 102,
+      "medicoId": 1,
+      "fecha": "2026-10-26T16:00:00",
+      "confirmada": false,
+      "notas": null
+    }
+  ]
+}
